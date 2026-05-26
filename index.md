@@ -7,6 +7,12 @@ title: Libertad Research Archive
 
 Welcome to the Libertad Research Archive.
 
+## Navigation
+
+- [About](/about/)
+- [Population Reports](#featured-research)
+- [YouTube Channel](https://www.youtube.com/@TiddyHunter98)
+
 This site contains:
 - Population report analysis
 - Survival estimate models
