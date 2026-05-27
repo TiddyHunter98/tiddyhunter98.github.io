@@ -19,7 +19,7 @@ Long-form essays and research commentary related to:
 
 ## Featured Articles
 
-- [The Cantillon Effect, Information Asymmetry, and Why I Own Precious Metals](/cantillon-effect-precious-metals/)
+- [The Cantillon Effect, Information Asymmetry, and Why I Own Precious Metals](https://tiddyhunter98.github.io/cantillon-effect-precious-metals/)
 
 ---
 
