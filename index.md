@@ -11,6 +11,7 @@ Welcome to the Libertad Research Archive.
 
 - [About](https://tiddyhunter98.github.io/about/)
 - [Population Reports](https://tiddyhunter98.github.io/population-reports/)
+- [Articles](https://tiddyhunter98.github.io/articles/)
 - [YouTube Channel](https://www.youtube.com/@TiddyHunter98)
 
 This site contains:
