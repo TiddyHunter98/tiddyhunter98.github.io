@@ -13,7 +13,7 @@ Long-form essays and research commentary related to:
 - Austrian economics
 - market structure
 - inflation
-- and secular commodity cycles.
+- secular commodity cycles.
 
 ---
 
