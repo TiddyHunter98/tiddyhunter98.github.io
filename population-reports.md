@@ -20,11 +20,13 @@ The long-term objective is to build a historical archive tracking:
 - [NGC Population Reports](/ngc-population-reports/)
 - [PCGS Population Reports](/pcgs-population-reports/)
 
+## Population Analytics
+
+- [YTD Population Increases](/population-analytics-ytd/)
+
 ## Future Additions
 
 Planned future additions include:
 - combined NGC + PCGS analytics
-- weekly delta tracking
-- top population movement
 - rarity acceleration studies
 - and longitudinal grading trends.
