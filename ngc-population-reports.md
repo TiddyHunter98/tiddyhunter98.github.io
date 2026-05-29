@@ -4,24 +4,21 @@ title: NGC Population Reports
 permalink: /ngc-population-reports/
 ---
 
-<h1>NGC Population Reports</h1>
+# NGC Population Reports
 
-<p>This page tracks weekly NGC population report snapshots for Mexican Libertads and related modern Mexican issues.</p>
+This page tracks weekly NGC population report snapshots for Mexican Libertads and related modern Mexican issues.
 
-<h2>Current Report</h2>
+## Current Report
 
-<h3>Week Ending May 23, 2026</h3>
+### Week Ending May 30, 2026
 
-<iframe
-src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSvjJiPZq8mjfYGG8j1FSTQ4ix0oTY3ZFalVRXSAF8YYXaB8hY7v4rdF8SNCoEkJyQ8TBtyeuXstbTs/pubhtml?widget=true&amp;headers=false"
+<iframe src="https://docs.google.com/spreadsheets/d/1ZCSNflfggBIz00Gb7Z9BS3UcD95IB8e6niJaeEeK_kk/edit?usp=sharing"
 width="100%"
 height="800">
 </iframe>
 
-<hr>
+---
 
-<h2>Historical Archive</h2>
+## Historical Archive
 
-<ul>
-  <li>Week Ending May 23, 2026</li>
-</ul>
+- [Week Ending May 23, 2026](https://tiddyhunter98.github.io/ngc-pop-2026-05-23/)
