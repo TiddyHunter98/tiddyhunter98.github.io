@@ -11,7 +11,7 @@ Welcome to the Libertad Research Archive.
 
 - [About](/about/)
 - [Population Reports](/population-reports/)
-- [CM27 Mintage Changes](/cm27-mintage-changes/)
+- [CM27 Mintage Changes](/cm27-mintage-changes.html)
 - [Articles](/articles/)
 - [YouTube Channel](https://www.youtube.com/@TiddyHunter98)
 
