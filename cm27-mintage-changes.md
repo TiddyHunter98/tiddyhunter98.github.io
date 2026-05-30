@@ -17,7 +17,8 @@ What makes these changes especially notable is that the revisions do not follow 
 * Others were extremely large
 Because these are historical years that are already decades old, the revisions raise broader questions regarding the long-term consistency and archival stability of official published mintage figures.
 The purpose of this page is not to speculate on the reason for these revisions, but rather to preserve a historical snapshot of the reported CM27 changes as they appeared before and after the May 2026 revisions.
- 
+
+
 ⸻
 
 
