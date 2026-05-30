@@ -9,10 +9,10 @@ Welcome to the Libertad Research Archive.
 
 ## Navigation
 
-- [About](https://tiddyhunter98.github.io/about/)
-- [Population Reports](https://tiddyhunter98.github.io/population-reports/)
-- [CM27 Mintage Changes](https://tiddyhunter98.github.io/cm27-mintage-changes/)
-- [Articles](https://tiddyhunter98.github.io/articles/)
+- [About](/about/)
+- [Population Reports](/population-reports/)
+- [CM27 Mintage Changes](/cm27-mintage-changes/)
+- [Articles](/articles/)
 - [YouTube Channel](https://www.youtube.com/@TiddyHunter98)
 
 This site contains:
