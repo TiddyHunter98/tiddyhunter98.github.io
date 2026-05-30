@@ -1,10 +1,11 @@
- 
-⸻
- 
+---
 layout: default
- 
 title: CM27 Mintage Changes
-CM27 Mintage Changes — Banco de México Revisions to Historical Libertad Mintages
+---
+
+# CM27 Mintage Changes
+
+## Banco de México Revisions to Historical Libertad Mintages
 For many collectors of Mexican Libertads, official Banco de México mintages are treated as the definitive historical record for the series. These figures influence rarity discussions, long-term population expectations, market valuations, and collector demand across both proof and brilliant uncirculated (BU) Libertads.
 Within the Libertad collecting community, one of the most widely referenced independent resources has been the mintage tables maintained and periodically updated by Bullion Cat, who has consistently tracked official Banco de México CM27 report figures and published updated reference tables across Instagram, Reddit, and private Libertad collector groups.
 In 2023, Bullion Cat identified a notable adjustment involving the 2022 1 oz Silver BU Libertad, where the reported mintage changed from 550,000 to 350,000 within the CM27 report. This revision was subsequently incorporated into updated community mintage tables.
