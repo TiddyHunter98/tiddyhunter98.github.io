@@ -41,28 +41,27 @@ The purpose of this page is not to speculate on the reason for these revisions, 
 ![BU Post May 2026](/assets/images/bu-post-may-2026.png) 
 ⸻
  
-Observed CM27 Changes
-Proof Revisions Observed
-Year	Previous	Revised
-2000	1,600	2,000
-2001	2,000	3,500
-2002	3,800	4,700
-2003	5,400	5,000
-2004	3,000	4,000
-2005	3,300	3,000
- 
-⸻
- 
-BU Revisions Observed
-Year	Previous	Revised
-2000	340,000	455,000
-2001	725,000	385,000
-2002	850,000	1,270,000
-2003	805,000	500,000
-2004	450,000	550,000
-2005	698,281	800,000
-2022	550,000	350,000
- 
-⸻
+## Proof Revisions Observed
+
+| Year | Previous | Revised |
+|---|---:|---:|
+| 2000 | 1,600 | 2,000 |
+| 2001 | 2,000 | 3,500 |
+| 2002 | 3,800 | 4,700 |
+| 2003 | 5,400 | 5,000 |
+| 2004 | 3,000 | 4,000 |
+| 2005 | 3,300 | 3,000 |
+
+## BU Revisions Observed
+
+| Year | Previous | Revised |
+|---|---:|---:|
+| 2000 | 340,000 | 455,000 |
+| 2001 | 725,000 | 385,000 |
+| 2002 | 850,000 | 1,270,000 |
+| 2003 | 805,000 | 500,000 |
+| 2004 | 450,000 | 550,000 |
+| 2005 | 698,281 | 800,000 |
+| 2022 | 550,000 | 350,000 |
  
 
