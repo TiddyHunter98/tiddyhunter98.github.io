@@ -66,5 +66,6 @@ The purpose of this page is not to speculate on the reason for these revisions, 
 | 2004 | 450,000 | 550,000 |
 | 2005 | 698,281 | 800,000 |
 | 2022 | 550,000 | 350,000 |
+
  
 
