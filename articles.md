@@ -18,7 +18,7 @@ Long-form essays and research commentary related to:
 ---
 
 ## Featured Articles
-
+- [A Framework for Estimating Precious Metals Peak Valuations](/precious-metals-peak-valuations/)
 - [The Cantillon Effect, Information Asymmetry, and Why I Own Precious Metals](https://tiddyhunter98.github.io/cantillon-effect-precious-metals/)
 
 ---
