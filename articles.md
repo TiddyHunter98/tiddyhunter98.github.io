@@ -23,4 +23,13 @@ Long-form essays and research commentary related to:
 
 ---
 
+### NGC vs. PCGS: A Population-Based Analysis of Grading Stringency
+
+A population-based study comparing grading behavior for 1-ounce Silver Libertads from 1982–2025.
+
+- 📄 [Research Paper (Word)](research/NGC_PCGS_Libertad_Stringency_Full_Paper.docx)
+- 📊 [Supporting Spreadsheet](research/grading_stringency_2026-06-07.xlsx)
+
+---
+
 More articles will be added over time as the archive expands.
