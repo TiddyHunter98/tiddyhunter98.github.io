@@ -27,8 +27,8 @@ Long-form essays and research commentary related to:
 
 A population-based study comparing grading behavior for 1-ounce Silver Libertads from 1982–2025.
 
-- 📄 [Research Paper (Word)](research/NGC_PCGS_Libertad_Stringency_Full_Paper.docx)
-- 📊 [Supporting Spreadsheet](research/grading_stringency_2026-06-07.xlsx)
+- 📄 [Research Paper (Word)](/research/NGC_PCGS_Libertad_Stringency_Full_Paper.docx)
+- 📊 [Supporting Spreadsheet](/research/grading_stringency_2026-06-07.xlsx)
 
 ---
 
