@@ -20,6 +20,7 @@ height="800">
 ---
 
 ## Historical Archive
+- [Week Ending August 19, 2026](https://tiddyhunter98.github.io/pcgs-pop-2026-08-19/)
 - [Week Ending July 20, 2026](https://tiddyhunter98.github.io/pcgs-pop-2026-07-20/)
 - [Week Ending June 14, 2026](https://tiddyhunter98.github.io/pcgs-pop-2026-06-14/)
 - [Week Ending June 6, 2026](https://tiddyhunter98.github.io/pcgs-pop-2026-06-06/)
