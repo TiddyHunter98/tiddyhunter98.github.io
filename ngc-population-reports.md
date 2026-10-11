@@ -10,9 +10,9 @@ This page tracks weekly NGC population report snapshots for Mexican Libertads an
 
 ## Current Report
 
-### Week Ending September 20, 2026
+### Week Ending October 11, 2026
 
-<iframe src="https://docs.google.com/spreadsheets/d/1SaENYoeK9AvmdOHCJGf5LBUqSBNKK7Gc5iV2J2w_Z80/edit?usp=sharing"
+<iframe src="https://docs.google.com/spreadsheets/d/1HRwCB3oV3peR-VCPb1ANjPiz4PtyeVp9XkgKokvH7uA/edit?usp=sharing"
 width="100%"
 height="800">
 </iframe>
@@ -20,6 +20,7 @@ height="800">
 ---
 
 ## Historical Archive
+- [Week Ending September 20, 2026](https://tiddyhunter98.github.io/ngc-pop-2026-09-20/)
 - [Week Ending August 19, 2026](https://tiddyhunter98.github.io/ngc-pop-2026-08-19/)
 - [Week Ending July 20, 2026](https://tiddyhunter98.github.io/ngc-pop-2026-07-20/)
 - [Week Ending June 14, 2026](https://tiddyhunter98.github.io/ngc-pop-2026-06-14/)
