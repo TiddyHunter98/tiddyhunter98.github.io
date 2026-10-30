@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Libertad Research Archive: independent research and market analytics for Mexican Libertad collectors.">
+  <title>Libertad Research Archive</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #080d12;
+      color: #f4f5f7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+    }
+    a { color: #65e3e0; }
+    .topbar {
+      background: rgba(5, 12, 18, .96);
+      padding: 17px 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #29464a;
+    }
+    .brand { color: #f2c15c; font-weight: 800; letter-spacing: .5px; }
+    .nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    .nav a { color: #e7eef0; text-decoration: none; font-size: 14px; }
+    .nav a:hover { color: #f2c15c; }
+
+    .hero {
+      min-height: 670px;
+      background-image:
+        linear-gradient(to bottom,
+          rgba(4, 10, 15, .10) 0%,
+          rgba(4, 10, 15, .12) 45%,
+          rgba(4, 10, 15, .88) 100%),
+        url('/assets/images/Background.PNG');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 24px;
+    }
+    .hero-content { max-width: 900px; }
+    h1 {
+      font-size: clamp(36px, 5vw, 72px);
+      line-height: 1.1;
+      margin: 0 0 14px;
+      text-shadow: 0 3px 15px #000;
+    }
+    .subtitle {
+      color: #f4c45d;
+      font-size: clamp(19px, 2.5vw, 28px);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .intro { max-width: 720px; margin: 18px auto 0; font-size: 17px; }
+    main { max-width: 1150px; margin: auto; padding: 65px 24px; }
+    .section-title { color: #f4c45d; font-size: 30px; margin: 0 0 20px; }
+    .feature {
+      text-align: center;
+      background: linear-gradient(145deg, #101c24, #080d12);
+      border: 1px solid #31505a;
+      border-radius: 18px;
+      padding: 45px 30px;
+      margin-bottom: 65px;
+    }
+    .feature img {
+      display: block;
+      width: 100%;
+      max-width: 880px;
+      height: auto;
+      margin: 0 auto 25px;
+    }
+    .feature p { max-width: 740px; margin: 0 auto 20px; }
+    .status { color: #f4c45d; font-weight: 700; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #14232b;
+      border: 1px solid #304b55;
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .card h3 { color: #f4c45d; margin-top: 0; }
+    .card a { font-weight: 600; }
+    footer {
+      padding: 28px;
+      border-top: 1px solid #29464a;
+      text-align: center;
+      color: #aab9c1;
+      font-size: 14px;
+    }
+    @media (max-width: 650px) {
+      .hero { min-height: 520px; background-position: center top; }
+      .topbar { justify-content: center; text-align: center; }
+      .nav { justify-content: center; gap: 12px; }
+      .feature { padding: 30px 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">LIBERTAD RESEARCH ARCHIVE</div>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/population-reports">Population Reports</a>
+      <a href="/cm27-mintage-changes">CM27 Mintage</a>
+      <a href="/articles">Articles</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Libertad Research Archive</h1>
+      <div class="subtitle">Home of Libertad Value Track</div>
+      <p class="intro">
+        Independent numismatic research, historical market data,
+        population analysis, and greater transparency for
+        Mexican Libertad collectors.
+      </p>
+    </div>
+  </section>
+
+  <main>
+    <section class="feature" id="value-track">
+      <img src="/assets/images/ValueTrackLogo.PNG"
+           alt="Libertad Value Track logo">
+      <h2 class="section-title">Introducing Libertad Value Track</h2>
+      <p>
+        An interactive research platform designed to help collectors
+        examine historical reported eBay sold prices, monthly market
+        trends, and price distributions across different years,
+        finishes, grading companies, and grades.
+      </p>
+      <p>
+        Our mission is simple: make meaningful market information
+        accessible to collectors, without gatekeeping or
+        cherry-picked transactions.
+      </p>
+      <p class="status">Public dashboard coming soon — free access is the goal.</p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Explore the Research Archive</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Population Reports</h3>
+          <p>NGC and PCGS grading populations, trends, and historical comparisons.</p>
+          <a href="/population-reports">Explore reports</a>
+        </article>
+        <article class="card">
+          <h3>Rarity &amp; Mintage</h3>
+          <p>Research into mintages, survival estimates, and collectible scarcity.</p>
+          <a href="/cm27-mintage-changes">Explore mintage research</a>
+        </article>
+        <article class="card">
+          <h3>Articles &amp; Commentary</h3>
+          <p>Independent perspectives on Libertad collecting and market developments.</p>
+          <a href="/articles">Read articles</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Libertad Research Archive | Independent research for Mexican Libertad collectors
+  </footer>
+</body>
+</html>
