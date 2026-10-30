@@ -4,21 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Libertad Research Archive: independent research and market analytics for Mexican Libertad collectors.">
-  <title>Libertad Research Archive</title>
+
+  <meta name="description"
+        content="Libertad Research Archive: independent research, historical market data, and population analysis for Mexican Libertad collectors.">
+
+  <title>Libertad Research Archive | Home of Libertad Value Track</title>
+
   <style>
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       background: #080d12;
       color: #f4f5f7;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Arial, sans-serif;
       line-height: 1.6;
     }
-    a { color: #65e3e0; }
+
+    a {
+      color: #65e3e0;
+    }
+
+    /* NAVIGATION */
+
     .topbar {
-      background: rgba(5, 12, 18, .96);
+      background: #080d12;
       padding: 17px 6%;
       display: flex;
       align-items: center;
@@ -27,52 +44,114 @@
       flex-wrap: wrap;
       border-bottom: 1px solid #29464a;
     }
-    .brand { color: #f2c15c; font-weight: 800; letter-spacing: .5px; }
-    .nav { display: flex; flex-wrap: wrap; gap: 18px; }
-    .nav a { color: #e7eef0; text-decoration: none; font-size: 14px; }
-    .nav a:hover { color: #f2c15c; }
+
+    .brand {
+      color: #f2c15c;
+      font-weight: 800;
+      letter-spacing: .5px;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    .nav a {
+      color: #e7eef0;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .nav a:hover {
+      color: #f2c15c;
+    }
+
+    /* FULL LANDSCAPE IMAGE */
 
     .hero {
-      min-height: 670px;
-      background-image:
-        linear-gradient(to bottom,
-          rgba(4, 10, 15, .10) 0%,
-          rgba(4, 10, 15, .12) 45%,
-          rgba(4, 10, 15, .88) 100%),
-        url('/assets/images/Background.PNG');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
+      width: 100%;
+      background: #080d12;
+    }
+
+    .hero-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: none;
+    }
+
+    /* WEBSITE INTRODUCTION */
+
+    .hero-intro {
+      background: linear-gradient(
+        180deg,
+        #101b23 0%,
+        #080d12 100%
+      );
+
+      padding: 48px 24px 60px;
       text-align: center;
-      padding: 60px 24px;
+      border-bottom: 1px solid #29464a;
     }
-    .hero-content { max-width: 900px; }
+
+    .hero-content {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
     h1 {
-      font-size: clamp(36px, 5vw, 72px);
-      line-height: 1.1;
+      font-size: clamp(36px, 5vw, 68px);
+      line-height: 1.12;
       margin: 0 0 14px;
-      text-shadow: 0 3px 15px #000;
+      color: #f4f5f7;
     }
+
     .subtitle {
       color: #f4c45d;
       font-size: clamp(19px, 2.5vw, 28px);
       font-weight: 700;
       letter-spacing: 1px;
     }
-    .intro { max-width: 720px; margin: 18px auto 0; font-size: 17px; }
-    main { max-width: 1150px; margin: auto; padding: 65px 24px; }
-    .section-title { color: #f4c45d; font-size: 30px; margin: 0 0 20px; }
+
+    .intro {
+      max-width: 720px;
+      margin: 18px auto 0;
+      font-size: 17px;
+      color: #d6e0e5;
+    }
+
+    /* MAIN CONTENT */
+
+    main {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: 65px 24px;
+    }
+
+    .section-title {
+      color: #f4c45d;
+      font-size: 30px;
+      margin: 0 0 20px;
+      line-height: 1.3;
+    }
+
+    /* LIBERTAD VALUE TRACK */
+
     .feature {
       text-align: center;
-      background: linear-gradient(145deg, #101c24, #080d12);
+      background: linear-gradient(
+        145deg,
+        #101c24,
+        #080d12
+      );
+
       border: 1px solid #31505a;
       border-radius: 18px;
       padding: 45px 30px;
       margin-bottom: 65px;
     }
+
     .feature img {
       display: block;
       width: 100%;
@@ -80,21 +159,52 @@
       height: auto;
       margin: 0 auto 25px;
     }
-    .feature p { max-width: 740px; margin: 0 auto 20px; }
-    .status { color: #f4c45d; font-weight: 700; }
+
+    .feature p {
+      max-width: 740px;
+      margin: 0 auto 20px;
+      color: #d6e0e5;
+      font-size: 16px;
+    }
+
+    .feature .status {
+      color: #f4c45d;
+      font-weight: 700;
+      margin-top: 25px;
+    }
+
+    /* RESEARCH CARDS */
+
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      grid-template-columns:
+        repeat(auto-fit, minmax(230px, 1fr));
       gap: 20px;
     }
+
     .card {
       background: #14232b;
       border: 1px solid #304b55;
       border-radius: 12px;
       padding: 24px;
     }
-    .card h3 { color: #f4c45d; margin-top: 0; }
-    .card a { font-weight: 600; }
+
+    .card h3 {
+      color: #f4c45d;
+      margin-top: 0;
+      font-size: 21px;
+    }
+
+    .card p {
+      color: #d6e0e5;
+    }
+
+    .card a {
+      font-weight: 600;
+    }
+
+    /* FOOTER */
+
     footer {
       padding: 28px;
       border-top: 1px solid #29464a;
@@ -102,17 +212,69 @@
       color: #aab9c1;
       font-size: 14px;
     }
+
+    /* MOBILE RESPONSIVENESS */
+
     @media (max-width: 650px) {
-      .hero { min-height: 520px; background-position: center top; }
-      .topbar { justify-content: center; text-align: center; }
-      .nav { justify-content: center; gap: 12px; }
-      .feature { padding: 30px 16px; }
+
+      .topbar {
+        justify-content: center;
+        text-align: center;
+        padding: 18px 15px;
+      }
+
+      .nav {
+        justify-content: center;
+        gap: 12px;
+      }
+
+      .hero-image {
+        width: 100%;
+        height: auto;
+      }
+
+      .hero-intro {
+        padding: 32px 18px 45px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .subtitle {
+        font-size: 19px;
+      }
+
+      .intro {
+        font-size: 15px;
+      }
+
+      main {
+        padding: 40px 16px;
+      }
+
+      .feature {
+        padding: 30px 16px;
+        margin-bottom: 45px;
+      }
+
+      .section-title {
+        font-size: 25px;
+      }
     }
   </style>
 </head>
+
 <body>
+
+  <!-- TOP NAVIGATION -->
+
   <header class="topbar">
-    <div class="brand">LIBERTAD RESEARCH ARCHIVE</div>
+
+    <div class="brand">
+      LIBERTAD RESEARCH ARCHIVE
+    </div>
+
     <nav class="nav" aria-label="Main navigation">
       <a href="/">Home</a>
       <a href="/about">About</a>
@@ -120,63 +282,148 @@
       <a href="/cm27-mintage-changes">CM27 Mintage</a>
       <a href="/articles">Articles</a>
     </nav>
+
   </header>
 
-  <section class="hero">
+  <!-- FULL CINEMATIC TH LANDSCAPE -->
+
+  <section class="hero" aria-label="TH Libertad landscape">
+
+    <img
+      class="hero-image"
+      src="/assets/images/Background.PNG"
+      alt="TH Libertad landscape featuring the golden Winged Victory, radiant sun, mountains, pyramids, and turquoise sky"
+      fetchpriority="high"
+    >
+
+  </section>
+
+  <!-- MAIN WEBSITE HEADING -->
+
+  <section class="hero-intro">
+
     <div class="hero-content">
+
       <h1>Libertad Research Archive</h1>
-      <div class="subtitle">Home of Libertad Value Track</div>
+
+      <div class="subtitle">
+        Home of Libertad Value Track
+      </div>
+
       <p class="intro">
         Independent numismatic research, historical market data,
         population analysis, and greater transparency for
         Mexican Libertad collectors.
       </p>
+
     </div>
+
   </section>
 
+  <!-- MAIN CONTENT -->
+
   <main>
+
+    <!-- FEATURED LIBERTAD VALUE TRACK -->
+
     <section class="feature" id="value-track">
-      <img src="/assets/images/ValueTrackLogo.PNG"
-           alt="Libertad Value Track logo">
-      <h2 class="section-title">Introducing Libertad Value Track</h2>
+
+      <img
+        src="/assets/images/ValueTrackLogo.PNG"
+        alt="Libertad Value Track logo"
+        loading="lazy"
+      >
+
+      <h2 class="section-title">
+        Introducing Libertad Value Track
+      </h2>
+
       <p>
         An interactive research platform designed to help collectors
         examine historical reported eBay sold prices, monthly market
-        trends, and price distributions across different years,
+        trends, and price distributions across different coin years,
         finishes, grading companies, and grades.
       </p>
+
       <p>
         Our mission is simple: make meaningful market information
         accessible to collectors, without gatekeeping or
         cherry-picked transactions.
       </p>
-      <p class="status">Public dashboard coming soon — free access is the goal.</p>
+
+      <p class="status">
+        Public dashboard coming soon — free access is the goal.
+      </p>
+
     </section>
 
-    <section>
-      <h2 class="section-title">Explore the Research Archive</h2>
+    <!-- EXISTING RESEARCH SECTIONS -->
+
+    <section id="research">
+
+      <h2 class="section-title">
+        Explore the Research Archive
+      </h2>
+
       <div class="cards">
+
         <article class="card">
+
           <h3>Population Reports</h3>
-          <p>NGC and PCGS grading populations, trends, and historical comparisons.</p>
-          <a href="/population-reports">Explore reports</a>
+
+          <p>
+            NGC and PCGS grading populations, trends,
+            and historical comparisons.
+          </p>
+
+          <a href="/population-reports">
+            Explore reports
+          </a>
+
         </article>
+
         <article class="card">
+
           <h3>Rarity &amp; Mintage</h3>
-          <p>Research into mintages, survival estimates, and collectible scarcity.</p>
-          <a href="/cm27-mintage-changes">Explore mintage research</a>
+
+          <p>
+            Research into mintages, survival estimates,
+            and collectible scarcity.
+          </p>
+
+          <a href="/cm27-mintage-changes">
+            Explore mintage research
+          </a>
+
         </article>
+
         <article class="card">
+
           <h3>Articles &amp; Commentary</h3>
-          <p>Independent perspectives on Libertad collecting and market developments.</p>
-          <a href="/articles">Read articles</a>
+
+          <p>
+            Independent perspectives on Libertad collecting
+            and market developments.
+          </p>
+
+          <a href="/articles">
+            Read articles
+          </a>
+
         </article>
+
       </div>
+
     </section>
+
   </main>
 
+  <!-- FOOTER -->
+
   <footer>
-    Libertad Research Archive | Independent research for Mexican Libertad collectors
+    Libertad Research Archive |
+    Independent research for Mexican Libertad collectors
   </footer>
+
 </body>
 </html>
