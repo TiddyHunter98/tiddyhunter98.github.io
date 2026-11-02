@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-# About
+# About Me
 
 ## The Story Behind Tiddy Hunter
 
