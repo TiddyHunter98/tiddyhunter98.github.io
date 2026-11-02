@@ -418,117 +418,145 @@
 
     
 <!-- CONNECT WITH TIDDY HUNTER -->
+
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 <section class="social-section" id="connect">
-  <style>
-    .social-section {
-      max-width: 1100px;
-      margin: 65px auto 45px;
-      padding: 35px 25px;
-      background: #101b23;
-      border: 1px solid #31505a;
-      border-radius: 16px;
-      text-align: center;
-    }
 
-    .social-section h2 {
-      color: #f4c45d;
-      font-size: 30px;
-      margin: 0 0 12px;
-    }
+<style>
+.social-section {
+  max-width: 1100px;
+  margin: 65px auto 45px;
+  padding: 35px 25px;
+  background: #101b23;
+  border: 1px solid #31505a;
+  border-radius: 16px;
+  text-align: center;
+}
 
-    .social-section p {
-      color: #d6e0e5;
-      margin-bottom: 28px;
-      line-height: 1.7;
-    }
+.social-section h2 {
+  color: #f4c45d;
+  font-size: 30px;
+  margin: 0 0 12px;
+}
 
-    .social-links {
-      display: grid;
-      grid-template-columns:
-        repeat(auto-fit, minmax(155px, 1fr));
-      gap: 14px;
-    }
+.social-section p {
+  color: #d6e0e5;
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
 
-    .social-link {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 7px;
-      padding: 20px 12px;
-      background: #182a34;
-      border: 1px solid #31505a;
-      border-radius: 12px;
-      color: #ffffff;
-      text-decoration: none;
-      transition: transform .2s, border-color .2s;
-    }
+.social-links {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit, minmax(155px, 1fr));
+  gap: 14px;
+}
 
-    .social-link:hover {
-      transform: translateY(-4px);
-      border-color: #f4c45d;
-      text-decoration: none;
-    }
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 12px;
+  background: #182a34;
+  border: 1px solid #31505a;
+  border-radius: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: transform .2s, border-color .2s;
+}
 
-    .social-link strong {
-      color: #65e3e0;
-      font-size: 17px;
-    }
+.social-link:hover {
+  transform: translateY(-4px);
+  border-color: #f4c45d;
+  text-decoration: none;
+}
 
-    .social-link span {
-      color: #b9cbd1;
-      font-size: 12px;
-    }
-  </style>
+.social-link i {
+  font-size: 35px;
+}
 
-  <h2>Connect with Tiddy Hunter</h2>
+.social-link strong {
+  color: #ffffff;
+  font-size: 17px;
+}
 
-  <p>
-    Follow my latest Libertad research, market
-    commentary, videos, and conversations
-    with fellow collectors.
-  </p>
+.social-link span {
+  color: #b9cbd1;
+  font-size: 12px;
+}
 
-  <div class="social-links">
+.social-link.youtube i { color: #ff0033; }
+.social-link.instagram i { color: #e440a5; }
+.social-link.facebook i { color: #1877f2; }
+.social-link.reddit i { color: #ff4500; }
+.social-link.tiktok i { color: #ffffff; }
 
-    <a class="social-link"
-       href="https://youtube.com/@tiddyhunter98"
-       target="_blank" rel="noopener noreferrer">
-      <strong>YouTube</strong>
-      <span>Videos &amp; Research</span>
-    </a>
+@media(max-width:600px) {
+  .social-section { padding: 25px 14px; }
+  .social-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
 
-    <a class="social-link"
-       href="https://www.instagram.com/tiddy_hunter/"
-       target="_blank" rel="noopener noreferrer">
-      <strong>Instagram</strong>
-      <span>Coins &amp; Updates</span>
-    </a>
+<h2>Connect with Tiddy Hunter</h2>
 
-    <a class="social-link"
-       href="https://www.facebook.com/share/19Gew5xD9b/"
-       target="_blank" rel="noopener noreferrer">
-      <strong>Facebook</strong>
-      <span>Community Posts</span>
-    </a>
+<p>
+Follow my latest Libertad research, market commentary,
+videos, and conversations with fellow collectors.
+</p>
 
-    <a class="social-link"
-       href="https://www.reddit.com/user/WorrryWort/"
-       target="_blank" rel="noopener noreferrer">
-      <strong>Reddit</strong>
-      <span>Collector Discussions</span>
-    </a>
+<div class="social-links">
 
-    <a class="social-link"
-       href="https://www.tiktok.com/@tiddy.hunter"
-       target="_blank" rel="noopener noreferrer">
-      <strong>TikTok</strong>
-      <span>Short Videos</span>
-    </a>
+<a class="social-link youtube"
+ href="https://youtube.com/@tiddyhunter98"
+ target="_blank" rel="noopener noreferrer">
+ <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+ <strong>YouTube</strong>
+ <span>Videos &amp; Research</span>
+</a>
 
-  </div>
+<a class="social-link instagram"
+ href="https://www.instagram.com/tiddy_hunter/"
+ target="_blank" rel="noopener noreferrer">
+ <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+ <strong>Instagram</strong>
+ <span>Coins &amp; Updates</span>
+</a>
+
+<a class="social-link facebook"
+ href="https://www.facebook.com/share/19Gew5xD9b/"
+ target="_blank" rel="noopener noreferrer">
+ <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+ <strong>Facebook</strong>
+ <span>Community Posts</span>
+</a>
+
+<a class="social-link reddit"
+ href="https://www.reddit.com/user/WorrryWort/"
+ target="_blank" rel="noopener noreferrer">
+ <i class="fa-brands fa-reddit-alien" aria-hidden="true"></i>
+ <strong>Reddit</strong>
+ <span>Collector Discussions</span>
+</a>
+
+<a class="social-link tiktok"
+ href="https://www.tiktok.com/@tiddy.hunter"
+ target="_blank" rel="noopener noreferrer">
+ <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+ <strong>TikTok</strong>
+ <span>Short Videos</span>
+</a>
+
+</div>
 </section>
+
 <!-- END SOCIAL SECTION -->
+
 
   </main>
 
