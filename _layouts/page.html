@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title | escape }} | Libertad Research Archive</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #080d12;
+      color: #e7eef0;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Arial, sans-serif;
+      line-height: 1.75;
+    }
+
+    a {
+      color: #65e3e0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #f4c45d;
+      text-decoration: underline;
+    }
+
+    .topbar {
+      background: #080d12;
+      border-bottom: 1px solid #29464a;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      color: #f4c45d;
+      font-weight: 800;
+      letter-spacing: .5px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+    }
+
+    nav a {
+      color: #e7eef0;
+      font-size: 14px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      background: #101b23;
+    }
+
+    .banner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 40%;
+      display: block;
+    }
+
+    .banner::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(8,13,18,0.05),
+        rgba(8,13,18,0.8)
+      );
+    }
+
+    .content-wrap {
+      max-width: 1050px;
+      margin: -45px auto 70px;
+      padding: 0 24px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .content-panel {
+      background: #101b23;
+      border: 1px solid #31505a;
+      border-radius: 16px;
+      padding: 45px 50px;
+      box-shadow: 0 18px 45px rgba(0,0,0,.35);
+      overflow-wrap: anywhere;
+    }
+
+    h1, h2, h3, h4 {
+      line-height: 1.3;
+    }
+
+    h1 {
+      color: #f4f5f7;
+      font-size: clamp(30px, 4vw, 46px);
+      margin-top: 0;
+      border-bottom: 2px solid #d6a735;
+      padding-bottom: 16px;
+    }
+
+    h2 {
+      color: #f4c45d;
+      font-size: 27px;
+      margin-top: 42px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #31505a;
+    }
+
+    h3 {
+      color: #65e3e0;
+      font-size: 21px;
+      margin-top: 30px;
+    }
+
+    p {
+      margin: 16px 0;
+      color: #d6e0e5;
+    }
+
+    li {
+      margin: 9px 0;
+    }
+
+    li::marker {
+      color: #f4c45d;
+    }
+
+    strong {
+      color: #fff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .content-panel img {
+      border-radius: 8px;
+    }
+
+    table {
+      display: block;
+      max-width: 100%;
+      overflow-x: auto;
+      border-collapse: collapse;
+      margin: 25px 0;
+    }
+
+    th, td {
+      border: 1px solid #31505a;
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      background: #d6a735;
+      color: #080d12;
+    }
+
+    td {
+      background: #14232b;
+    }
+
+    tr:nth-child(even) td {
+      background: #1a2c35;
+    }
+
+    blockquote {
+      margin: 25px 0;
+      padding: 15px 22px;
+      background: #14232b;
+      border-left: 4px solid #f4c45d;
+    }
+
+    pre {
+      overflow-x: auto;
+      background: #080d12;
+      padding: 18px;
+      border-radius: 8px;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #31505a;
+      margin: 35px 0;
+    }
+
+    footer {
+      padding: 28px 20px;
+      border-top: 1px solid #29464a;
+      text-align: center;
+      color: #aab9c1;
+      font-size: 14px;
+    }
+
+    @media (max-width: 650px) {
+      .topbar {
+        justify-content: center;
+        text-align: center;
+        padding: 16px;
+      }
+
+      nav {
+        justify-content: center;
+        gap: 12px;
+      }
+
+      .banner {
+        height: 170px;
+      }
+
+      .content-wrap {
+        margin-top: -20px;
+        padding: 0 12px;
+      }
+
+      .content-panel {
+        padding: 25px 18px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      h2 {
+        font-size: 23px;
+      }
+
+      th, td {
+        padding: 8px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="topbar">
+
+    <div class="brand">
+      LIBERTAD RESEARCH ARCHIVE
+    </div>
+
+    <nav aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/population-reports/">Population Reports</a>
+      <a href="/cm27-mintage-changes/">CM27 Mintage</a>
+      <a href="/articles/">Articles</a>
+    </nav>
+
+  </header>
+
+  <div class="banner">
+    <img
+      src="/assets/images/Background.PNG"
+      alt="TH Libertad landscape"
+    >
+  </div>
+
+  <main class="content-wrap">
+    <article class="content-panel">
+
+      {{ content }}
+
+    </article>
+  </main>
+
+  <footer>
+    Libertad Research Archive |
+    Independent research for Mexican Libertad collectors
+  </footer>
+
+</body>
+</html>
